@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.app-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://cdn.wallpapersafari.com/4/58/txz0bM.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input-container {
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 70px 0;
+}
+
+.input {
+  outline: none;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  width: 400px;
+  height: 45px;
+  border-radius: 10px ;
+  padding: 5px 20px;
+  font-family: 'Signika', sans-serif;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.result-container {
+  /* border: 3px solid green; */
+  display: flex;
+  justify-content: center;
+}
+
+.weather-card {
+  /* border: 2px solid gold; */
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  opacity: 0.8;
+  box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px;
+  border-radius: 30px;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* State */
+.weather-card > h2 {
+  font-family: 'Signika', sans-serif;
+  font-size: 40px;
+}
+
+/* Temp */
+.weather-card > h1 {
+  font-family: 'Signika', sans-serif;
+  font-size: 70px;
+}
+
+
+/* Type */
+
+.weather-card > h3 {
+  font-family: 'Signika', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+
