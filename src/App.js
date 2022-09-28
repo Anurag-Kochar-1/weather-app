@@ -12,7 +12,7 @@ function App() {
 
   const inputRef = useRef(null)
 
-  // let API_KEY = `225298f77dee4c33f452dc59832e1b66`
+  // let API_KEY = `e`
   // let API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`
 
   // const callingAPI = () => {
